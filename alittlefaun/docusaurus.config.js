@@ -1,49 +1,49 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'alittlefaun',
-  favicon: 'img/favicon.ico',
+  title: "alittlefaun",
+  favicon: "images/favicon.ico",
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: "https://your-docusaurus-test-site.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: "facebook", // Usually your GitHub org/user name.
+  projectName: "docusaurus", // Usually your repo name.
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
         },
         blog: {
           showReadingTime: true,
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -52,43 +52,40 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'alittlefaun plush',
+        title: "alittlefaun plush",
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: "images/logo.png",
         },
         items: [
-          {to: 'commissions', label: 'Commissions', position: 'left'},
-          {to: 'terms', label: 'Terms and Conditions', position: 'left'},
-          {to: 'about', label: 'About', position: 'left'},
-          {to: 'faq', label: 'FAQ', position: 'left'}
+          { to: "commissions", label: "Commissions", position: "left" },
+          { to: "terms", label: "Terms and Conditions", position: "left" },
+          { to: "about", label: "About", position: "left" },
+          { to: "faq", label: "FAQ", position: "left" },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Contact',
+            title: "Contact",
             items: [
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/alittlefaun',
+                label: "Twitter",
+                href: "https://twitter.com/alittlefaun",
               },
               {
-                label: 'Instagram',
-                href: 'https://www.instagram.com/alittlefaun/',
+                label: "Instagram",
+                href: "https://www.instagram.com/alittlefaun/",
               },
               {
-                label: 'Deviant Art',
-                href: 'https://www.deviantart.com/alittlefaun',
+                label: "Deviant Art",
+                href: "https://www.deviantart.com/alittlefaun",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} alittlefaun plush, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
