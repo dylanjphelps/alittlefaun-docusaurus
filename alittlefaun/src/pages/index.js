@@ -51,6 +51,7 @@ export default function Home() {
 function importAll(r) {
   let images = {};
   r.keys().map((item, _) => {
+    console.log(item);
     images[item.replace("./", "")] = r(item);
   });
   return images;
