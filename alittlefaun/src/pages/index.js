@@ -1,41 +1,36 @@
 import React from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
-import styles from './index.module.css';
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
+import { ImageList, ImageListItem, Typography } from '@mui/material';
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const images = importAll(require.context('../images/plushes', false, /\.(png|jpe?g|svg)$/));
+
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+      title="Home">
+        <Typography align="center" variant="h2">Hello there! 🌱</Typography>
+        <Typography  variant="body1" sx={{mx: '15vw', py: 4}}>
+        I'm alittlefaun - you can call me faun (〃ω〃).  I edit text files during the week for a living and make plushies during the weekends.  I really enjoy the process of creating things and having that final product bring joy to their owners. 
+        <br/><br/>
+        Please don't hesitate to message me if you have a character that you would like me to bring to life!
+        </Typography>
+        <ImageList sx={{ width: 'auto', height: 'auto',  mx: '15vw' }} variant="woven" cols={3} gap={8}>
+          {Object.entries(images).map(([key, value]) => (
+              <ImageListItem key={key}>
+                  <img
+                      src={require(`../images/plushes/${key}?w=161&fit=crop&auto=format`).default}
+                      srcSet={require(`../images/plushes/${key}?w=161&fit=crop&auto=format`).default}
+                      loading="lazy"
+                  />
+              </ImageListItem>
+          ))}
+        </ImageList>
     </Layout>
   );
 }
+
+function importAll(r) {
+  let images = {};
+  r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+  return images;
+};
