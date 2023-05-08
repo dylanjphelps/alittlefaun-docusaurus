@@ -12,18 +12,18 @@ export default function Home() {
       <Typography align="center" variant="h2">
         Hello there! 🌱
       </Typography>
-      <Typography variant="body1" sx={{ mx: "15vw", py: 4 }}>
+      <Typography paragraph="true" variant="body1" sx={{ mx: "10vw", pt: 4 }}>
         I'm alittlefaun - you can call me faun (〃ω〃). I edit text files during
         the week for a living and make plushies during the weekends. I really
         enjoy the process of creating things and having that final product bring
         joy to their owners.
-        <br />
-        <br />
+      </Typography>
+      <Typography paragraph="true" variant="body1" sx={{ mx: "10vw", pd: 4 }}>
         Please don't hesitate to message me if you have a character that you
         would like me to bring to life!
       </Typography>
       <ImageList
-        sx={{ width: "auto", height: "auto", mx: "15vw" }}
+        sx={{ width: "auto", height: "auto", mx: "10vw" }}
         variant="woven"
         cols={3}
         gap={8}
