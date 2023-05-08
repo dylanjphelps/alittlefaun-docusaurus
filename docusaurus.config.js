@@ -17,8 +17,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "dylanjphelps", // Usually your GitHub org/user name.
+  projectName: "alittlefaun-docusaurus", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -52,8 +52,17 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: "commission_status",
+        content: "Commissions are currently closed!",
+        backgroundColor: "#750f35",
+        //content: "Commissions are open!",
+        //backgroundColor: "#0e591b",
+        textColor: "white",
+        isCloseable: false,
+      },
       navbar: {
-        title: "alittlefaun plush",
+        title: ".:alittlefaun plush:.",
         logo: {
           src: "images/logo.png",
         },
