@@ -46,7 +46,7 @@ At this point in time I am not creating custom pattern bases due to the amount o
                     <li>size: varies but fits inside 4x4 inch square</li>
                     <li>single sided, includes ribbon loop and keychain</li>
                     <li>fully custom embroidery/ shape to match your character</li>
-                    <li>required: please provide your own sketch/ image (I'll make necessary adjustments to accommodate fabric limitations)</li>
+                    <li><b>required</b>: please provide your own sketch/ image (I'll make necessary adjustments to accommodate fabric limitations)</li>
                     <li>flat price: $25</li>
                 </ul>
             </td>
