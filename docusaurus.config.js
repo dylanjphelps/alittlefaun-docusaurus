@@ -62,29 +62,11 @@ const config = {
           { to: "terms", label: "Terms and Conditions", position: "left" },
           { to: "about", label: "About", position: "left" },
           { to: "faq", label: "FAQ", position: "left" },
+          { to: "contact", label: "Contact", position: "left" },
         ],
       },
       footer: {
         style: "dark",
-        links: [
-          {
-            title: "Contact",
-            items: [
-              {
-                label: "Twitter",
-                href: "https://twitter.com/alittlefaun",
-              },
-              {
-                label: "Instagram",
-                href: "https://www.instagram.com/alittlefaun/",
-              },
-              {
-                label: "Deviant Art",
-                href: "https://www.deviantart.com/alittlefaun",
-              },
-            ],
-          },
-        ],
         copyright: `Copyright © ${new Date().getFullYear()} alittlefaun plush, Inc.`,
       },
       prism: {

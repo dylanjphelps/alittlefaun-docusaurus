@@ -1,6 +1,6 @@
 # Terms and Conditions
 
-Last updated April 20, 2023
+Updated May 7, 2023
 
 A personalized copy of my Terms and Conditions will be attached to the PayPal invoice. This is a general version for you to read. Please don't hesitate to reach out if you have any questions!
 

@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <Layout title="Home">
-      <Typography align="center" variant="h2">
+      <Typography align="center" variant="h2" sx={{ pt: 4 }}>
         Hello there! 🌱
       </Typography>
       <Typography paragraph="true" variant="body1" sx={{ mx: "10vw", pt: 4 }}>
