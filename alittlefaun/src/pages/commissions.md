@@ -10,7 +10,7 @@ Please do note that commissions are not first-come, first-served and I do have l
 
 Payment is through PayPal invoice and can be paid either in full upfront or split into two payments - half prior to starting and the remainder plus shipping upon completion.
 
-### Material and pattern confirmation:
+### Material and pattern confirmation
 
 - Prior to the invoice, I will confirm the plush pattern to be used as well as fabric types/ colors.
 - Materials that I have used in the past include (but are not limited to): minky fabric, faux fur, poly-fil, quilt batting, poly-pellets, magnets, foam, cotton fabrics, felt, fleece, and plastic or wire armature.
@@ -34,13 +34,80 @@ Right now I offer commissions using premade plush pattern bases. Edits can be ma
 
 At this point in time I am not creating custom pattern bases due to the amount of time I need invest into the process.
 
-|                                                            |                                                                                                                                                                                                                                                                                                                                                                |
-| ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../../static/images/pricing/20220316_204034.jpg)       | <h2>Plush Charm</h2><ul><li>size: varies but fits inside 4x4 inch square</li><li>single sided, includes ribbon loop and keychain</li><li>fully custom embroidery/ shape to match your character</li><li>required: please provide your own sketch/ image (I'll make necessary adjustments to accommodate fabric limitations) </li><li>flat price: $25</li></ul> |
-| ![](../../static/images/pricing/32425-widened.jpg)         | <h2>Chibi</h2><ul><li>size: 6 inches height</li><li>pattern by Choly Knight</li><li>simplified, cute design</li><li>no complicated details (i.e. multiple stripes, color changes, etc.)</li><li>base price: $150</li></ul>                                                                                                                                     |
-| ![](<../../static/images/pricing/large floppy laying.jpg>) | <h2>Large Floppy</h2><ul><li>size: 17 inches long</li><li>more lightly stuffed so that limbs flop downwards</li><li>more room to add details</li><li>base price: $250</li></ul>                                                                                                                                                                                |
-| ![](../../static/images/pricing/side10.jpg)                | <h2>Large Standing</h2><ul><li>size: 12-14 inches in height</li><li>pattern by AkiraOriginz</li><li>base price: $250</li></ul>                                                                                                                                                                                                                                 |
-| ![](../../static/images/pricing/32772-widened.jpg)         | <h2>Large Teddy</h2><ul><li>size: 16-17 inches in height</li><li>ability to fit some Build-A-Bear sized clothing</li><li>base price: $250</li></ul>                                                                                                                                                                                                            |
+<table>
+    <tbody>
+        <tr>
+            <td>
+                <img src={require(`../../static/images/pricing/20220316_204034.jpg`).default} />
+            </td>
+            <td>
+                <h2>Plush Charm</h2>
+                <ul>
+                    <li>size: varies but fits inside 4x4 inch square</li>
+                    <li>single sided, includes ribbon loop and keychain</li>
+                    <li>fully custom embroidery/ shape to match your character</li>
+                    <li>required: please provide your own sketch/ image (I'll make necessary adjustments to accommodate fabric limitations)</li>
+                    <li>flat price: $25</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src={require(`../../static/images/pricing/32425-widened.jpg`).default} />
+            </td>
+            <td>
+                <h2>Chibi</h2>
+                <ul>
+                    <li>size: 6 inches height</li>
+                    <li>pattern by Choly Knight</li>
+                    <li>simplified, cute design</li>
+                    <li>no complicated details (i.e. multiple stripes, color changes, etc.)</li>
+                    <li>base price: $150</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src={require(`../../static/images/pricing/large-floppy-laying.jpg`).default} />
+            </td>
+            <td>
+                <h2>Large Floppy</h2>
+                <ul>
+                    <li>size: 17 inches long</li>
+                    <li>more lightly stuffed so that limbs flop downwards</li>
+                    <li>more room to add details</li>
+                    <li>base price: $250</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src={require(`../../static/images/pricing/side10.jpg`).default} />
+            </td>
+            <td>
+                <h2>Large Standing</h2>
+                <ul>
+                    <li>size: 12-14 inches in height</li>
+                    <li>pattern by AkiraOriginz</li>
+                    <li>base price: $250</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src={require(`../../static/images/pricing/32772-widened.jpg`).default} />
+            </td>
+            <td>
+                <h2>Large Teddy</h2>
+                <ul>
+                    <li>size: 16-17 inches in height</li>
+                    <li>ability to fit some Build-A-Bear sized clothing</li>
+                    <li>base price: $250</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ## Shipping
 
